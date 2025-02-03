@@ -3,7 +3,7 @@ import React from "react";
 
 const EventDetails = ({ event, onBack }) => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-10 text-white bg-gradient-to-br from-blue-900 via-black to-blue-800">
+    <div className="flex flex-col items-center justify-center min-h-screen py-10 text-white ">
       <div className="container max-w-4xl p-6 mx-auto rounded-lg shadow-lg bg-blue-950">
         <button
           onClick={onBack}
