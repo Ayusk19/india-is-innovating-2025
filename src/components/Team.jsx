@@ -3,10 +3,10 @@ import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const teamMembers = [
-  { name: "Kavya Sinsinwar", role: "Developer", image: "/assets/images/kavya.jpg" },
-  { name: "Ayush Kumar", role: "Developer", image: "/assets/images/ayush.jpg" },
-  { name: "Gaurav Sharma", role: "Developer", image: "/assets/images/gaurav.jpg" },
-  { name: "Ekta Verma", role: "Developer", image: "/assets/images/ekta.jpg" },
+  { name: "Kavya Sinsinwar", role: "CSE Final Year", image: "/assets/images/kavya.jpg" },
+  { name: "Ayush Kumar", role: "CSE Final Year", image: "/assets/images/ayush.jpg" },
+  { name: "Gaurav Sharma", role: "CSE Final Year", image: "/assets/images/gaurav.jpg" },
+  { name: "Ekta Verma", role: "CSE Final Year", image: "/assets/images/ekta.jpg" },
 ];
 
 const Team = () => {
@@ -15,7 +15,7 @@ const Team = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="mb-8 text-4xl font-bold text-white sm:text-5xl">
-            Technical <u>Team</u>
+            Technical Team
           </h2>
           
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
