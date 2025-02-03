@@ -1,16 +1,17 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
 const EventDetails = ({ event, onBack }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-black to-blue-800 text-white flex flex-col items-center justify-center py-10">
-      <div className="container mx-auto max-w-4xl p-6 bg-blue-950 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center min-h-screen py-10 text-white bg-gradient-to-br from-blue-900 via-black to-blue-800">
+      <div className="container max-w-4xl p-6 mx-auto rounded-lg shadow-lg bg-blue-950">
         <button
           onClick={onBack}
-          className="px-6 py-3 mb-6 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-300"
+          className="px-6 py-3 mb-6 text-sm font-medium text-white transition duration-300 bg-blue-600 rounded hover:bg-blue-700"
         >
           ← Back to Events
         </button>
-        <h1 className="text-5xl font-extrabold text-center mb-6">
+        <h1 className="mb-6 text-5xl font-extrabold text-center">
           {event.title}
         </h1>
         <div className="relative">
@@ -19,10 +20,10 @@ const EventDetails = ({ event, onBack }) => {
             alt={event.title}
             className="w-full rounded-lg shadow-lg"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-lg"></div>
+          <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black via-transparent to-transparent"></div>
         </div>
         <div className="mt-8">
-          <p className="text-lg text-gray-300 leading-relaxed">
+          <p className="text-lg leading-relaxed text-gray-300">
             {event.details}
           </p>
           <div className="mt-6 space-y-2">
@@ -34,12 +35,12 @@ const EventDetails = ({ event, onBack }) => {
               🕒 Time: <span className="text-blue-300">{event.time}</span>
             </p>
           </div>
-          <div className="mt-8 flex justify-center">
+          <div className="flex justify-center mt-8">
             <a
               href={event.registerUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 text-lg font-medium bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300"
+              className="px-8 py-3 text-lg font-medium text-white transition duration-300 bg-blue-600 rounded hover:bg-blue-700"
             >
               Register for Event
             </a>

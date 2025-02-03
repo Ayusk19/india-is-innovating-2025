@@ -20,7 +20,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/3.avif",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -32,7 +32,7 @@ const events = [
       "Learn about cutting-edge AI technologies from industry experts.",
     time: "10:00 AM - 12:00 PM",
     registerUrl:
-      "https://unstop.com/p/code-crunch-india-is-innovating-suresh-gyan-vihar-university-1380259",
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/1.avif",
     details: "Detailed information about the AI Innovation Workshop...",
   },
@@ -42,7 +42,7 @@ const events = [
     location: "SGVU",
     description: "Showcase your robotics skills and win exciting prizes.",
     time: "2:00 PM - 4:00 PM",
-    registerUrl: "https://roboticscompetition.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/2.jpg",
     details: "Detailed information about the Robotics Competition...",
   },
@@ -54,7 +54,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/4.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -65,7 +65,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/5.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -76,7 +76,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/6.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -87,7 +87,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/7.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -98,7 +98,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/8.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -109,7 +109,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/9.webp",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -120,7 +120,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/10.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -131,7 +131,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/11.webp",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -142,7 +142,7 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/12.png",
     details: "Detailed information about the IoT Hackathon...",
   },
