@@ -177,7 +177,7 @@ const Venue = ({ onEventInfoClick }) => {
     <section ref={sectionRef} id="events" className="min-h-screen py-20 ">
       <div className="container px-6 mx-auto">
         <h2 className="mb-12 text-4xl font-bold text-center text-white sm:text-5xl">
-          Explore Our <u>Exciting Events</u>
+          Explore Our Exciting Events
         </h2>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           {events.map((event) => (

@@ -35,9 +35,9 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
               CONTACT US
             </h3>
-            <p>Mr. Zaid Khan - 7870048760</p>
-            <p>Ketan Bhaskar - 6201519951</p>
-            <p>Raj Gaurav - 9341547640</p>
+            <p>Mr. Zaid Khan - +91 787 004 8760</p>
+            <p>Ketan Bhaskar - +91 620 151 9951</p>
+            <p>Raj Gaurav - +91 934 154 7640</p>
           </div>
         </div>
 

@@ -73,7 +73,7 @@ const Register = () => {
     >
       <div className="container px-4 mx-auto">
       <h2 className="mb-12 text-4xl font-bold text-center text-white sm:text-5xl">
-          Event <u>Location</u>
+          Event Location 
         </h2>
         <div className="flex flex-col gap-8 lg:flex-row">
           {/* <form

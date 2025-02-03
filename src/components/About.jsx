@@ -57,7 +57,7 @@ const About = () => {
     <section ref={sectionRef} id="about" className="py-20 section">
       <div className="container px-4 mx-auto sm:px-6 lg:px-8">
       <h2 className="mb-8 text-4xl font-bold text-center text-white sm:text-5xl">
-            About <u>The Event</u>
+            About The Event
           </h2>
 
         {/* First image with text */}
