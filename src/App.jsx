@@ -56,12 +56,9 @@ function App() {
               <Suspense fallback={<LoadingSpinner />}>
                 <About />
                 <Venue
-                  onEventInfoClick={(event) =>
-                    handleViewChange("details", event)
-                  }
+                  onEventInfoClick={(event) => handleViewChange("details", event)}
                 />
                 <Register />
-                {/* <Contact /> */}
               </Suspense>
             </>
           )}
@@ -75,10 +72,16 @@ function App() {
             </Suspense>
           )}
         </main>
-        <Suspense fallback={<LoadingSpinner />}>
-          <Team />
-        </Suspense>
-        <Footer /> {/* Include the Footer component */}
+
+        {/* Conditionally render Team and Footer only if on Home page */}
+        {currentView === "home" && (
+          <>
+            <Suspense fallback={<LoadingSpinner />}>
+              <Team />
+            </Suspense>
+            <Footer />
+          </>
+        )}
       </div>
     </div>
   );
